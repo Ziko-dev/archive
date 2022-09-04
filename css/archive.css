@@ -459,6 +459,11 @@ margin: 0;
 
 
 @media(max-width:950px){
+    .header .nav ul li a.active,
+    .header .nav ul li a:hover
+    {
+        border-bottom: none ;
+    }
     .product-heading {
         font-size: 14px;
     }
