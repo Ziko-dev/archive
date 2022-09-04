@@ -384,12 +384,24 @@ display: flex;
 margin-top: 30px;
 margin-bottom: 30px;
 justify-content: space-between;
+align-items: center;
 }
 .flex-container-for-icons{
 display: flex;
 flex-direction: row;
+position: relative;
+justify-content: center;
+align-items: center;
 }
-.each-icon-container{}
+.each-icon-container{
+    width: 15px;
+    margin-right: 4px;
+}
+.each-icon-container path{
+    fill: #a0c824;
+    stroke-width: 10;
+    stroke: #a0c824;
+}
 .star-icon{}
 .container-for-reviews{
 margin: 0;
@@ -401,6 +413,7 @@ margin: 0;
 .heading-link-reviews{
    color: #a0c824;
    font-size: 16px;
+   font-weight: lighter;text-transform: capitalize;
 }
 .span-review-number{}
 .flex-container-for-itemsooo{
@@ -485,6 +498,9 @@ margin: 0;
     }
     .container-forabout{
         padding-bottom: .3rem;
+    }
+    .each-icon-container {
+        width: 12px;
     }
 }
 .{}
