@@ -499,6 +499,8 @@ margin: 0;
 .flex-container-for-contact{
     display: flex;
     flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .each-container-for-contact{
     width: 50%;
@@ -533,8 +535,17 @@ margin: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: relative;
+
+    background-color: white;
 }
-.container-for-icon{}
+.container-for-icon{
+    width: 30px;
+}
+.container-for-icon path{
+stroke-width: 10;
+}
+
 .contact-icon{}
 .container-for-contact-explain{
     margin: 0;
@@ -575,6 +586,8 @@ form{
     color: white;
     font-size: 16px;
     text-transform: capitalize;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     border-radius: 2px;
 }
 
@@ -642,15 +655,28 @@ form{
     .each-icon-container {
         width: 12px;
     }
-
+    .for-header-and-p-inside-about{
+        margin-left: 5%;
+    }
     .flex-container-inside-about{
         flex-direction: column-reverse;
+        width: 95%;
+    margin: 7% auto;
+    box-shadow: 1px 0px 2px 1px #80808059;
+    border-radius: 3px;
     }
     .each-container-inside-about{
         width: 100%;
     }
+    .flex-row-container-for-contact-icon{
+        justify-content: center;
+        margin-top: 5px;
+    margin-bottom: 5px;
+    }
     .flex-container-for-contact{
         flex-direction: column;
+        box-shadow: 1px 0px 2px 1px #80808059;
+        border-radius: 3px;
     }
     .each-container-for-contact{
         width: 100%;
@@ -663,21 +689,25 @@ form{
     }
     .li-inside-about{
         font-size: 13px;
+        margin-left: 10%;
     }
     .contact-heading {
         font-size: 13px;
+        text-align: center;
     }
     .contact-p {
         font-size: 12px;
+        text-align: center;
+        padding: 10px 5px;
     }
     .contact-name {
         font-size: 13px;
     }
     .content-for-contact {
         width: 100%;
-        text-align: center;
     }
-    .flex-row-container-for-contact-icon{
-        justify-content: center;
+    .container-for-icon {
+        width: 15px;
+        margin-right: 6px;
     }
 }
